@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.user.hello.CultureInfoActivity">
+    <ImageView
+        android:id="@+id/Cul_img"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:gravity="center"
+        />
+
+    <Button
+        android:id="@+id/cul_desti"
+        android:layout_width="123dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/letfinal"
+        />
+
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textSize="10pt">
+
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="이름" />
+
+           <TextView
+
+                android:textSize="16sp"
+               android:id="@+id/Cul_name"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+                android:gravity="center"
+               android:layout_margin="1dp"
+                 />
+
+
+        </TableRow>
+
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="주소" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_addr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" android:layout_margin="1dp"
+                />
+        </TableRow>
+
+
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="전화번호" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:autoLink="phone"
+                android:gravity="center" android:layout_margin="1dp"
+                />
+        </TableRow>
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="영업시간" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_open"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" android:layout_margin="1dp"
+                />
+        </TableRow>
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="휴무일" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_closed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center" android:layout_margin="1dp"
+                />
+        </TableRow>
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="좌석수" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_seat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_margin="1dp"
+                android:gravity="center"
+                />
+        </TableRow>
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="홈페이지" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_margin="1dp"
+                android:gravity="center"
+                android:autoLink="web"
+                />
+        </TableRow>
+        <TableRow android:weightSum="15">
+
+            <TextView
+                android:textSize="16sp"
+                android:textColor="@android:color/darker_gray"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="1dp"
+                android:gravity="center"
+                android:text="입장료" />
+
+            <TextView
+
+                android:textSize="16sp"
+                android:id="@+id/Cul_entrfree"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" android:layout_margin="1dp"
+                android:gravity="center"
+                />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>
